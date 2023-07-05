@@ -1,0 +1,172 @@
+header{
+
+    background-image: url(https://img.freepik.com/foto-gratis/banner-horizontal-productos-cosmeticos-piedras_23-2149446577.jpg?size=626&ext=jpg&ga=GA1.1.1486680467.1688495867&semt=ais);  
+    height: 150px;
+}
+
+
+nav{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    font-size: small; 
+    line-height: 150%;
+    position: sticky;
+
+}
+
+a:link{
+    color:rgb(63, 49, 49);
+    background-color: rgb(243, 231, 192);
+}
+a:hover{
+    text-transform: uppercase ;
+}
+
+a:visited{
+    color: grey;
+}
+
+a:active{
+    background-color: antiquewhite;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: rgb(63, 49, 49);
+   padding: 20px;
+}
+
+main{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(63, 49, 49);
+    padding: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+body{
+    background-color: beige;
+}
+
+.card{
+    height: 300px;
+    width: 150px;
+    display: inline-block;
+    margin-top: 50px;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(216, 216, 167);
+    margin-bottom: 20px;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
+figcaption{
+    background-color: rgb(197, 197, 138);
+}
+
+
+h3{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(63, 49, 49);
+    font-size: medium;
+}
+.nuestragaleria{
+   height: 800px;
+    display: grid;
+    justify-content: center;
+     grid-template-columns: repeat (3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas: 
+    " bolivar bolivar bolivar"
+    "spa spa spa"
+    "jacuzzi jacuzzi jacuzzi"
+    "breackfast breackfast breackfast"
+    "hab hab hab"
+
+
+}
+
+.bolivar{
+    grid-area: bolivar;
+}
+
+section img{
+    width: 200px;
+}
+
+.contactanos{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-align: center;
+display: grid;
+justify-content: center;
+margin-top: 40px;
+text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(63, 49, 49);
+    font-size: medium;
+}
+
+.formulario{
+    background-image: url(https://img.freepik.com/fotos-premium/vista-superior-decoracion-spa-terapeutico-espacio-copia_23-2148290880.jpg?size=626&ext=jpg&ga=GA1.1.1486680467.1688495867&semt=ais);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 600px;
+    background-size: cover;
+    padding: 50px;
+    background-position: center;
+    text-align: center;
+}
+
+footer{
+    background-color: rgb(197, 197, 138);
+    border-bottom: 1px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.p-footer{
+    position: absolute;
+    display: inline-block;
+    text-align: left;
+    color: black;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.p-footer p:first-child{
+    color: rgb(216, 216, 167);
+    background-color: black;
+    font-weight: bold;
+
+    
+}
+
+.p-footer p:last-child{
+    color: black;
+    font-weight: lighter;
+    background-color: rgb(216, 216, 167);
+    font-size: small;
+}
+
+.logo{
+    display: inline-block;
+    text-align: left;
+    height: 20px;
+    width: 20px;
+  
+    margin-bottom: 15px;
+    margin-left: 10px;
+    padding: auto;
+}
+.datoscontacto{
+
+    text-align: center;
+}
+
